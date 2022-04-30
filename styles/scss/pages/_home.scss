@@ -1,0 +1,15 @@
+@use "../abstracts/variables";
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+
+    a {
+        color: variables.$color-dark-blue;
+    }
+}
+
+.showcase {
+    background-color: variables.$color-light-gray;
+    height: 600px;
+}
