@@ -1,5 +1,41 @@
 @use "../abstracts/variables";
 
+.showcase {
+    background-color: variables.$color-light-gray;
+    height: 85vh;
+    display: flex;
+    align-items: center;
+
+    .container-square {
+        background-color: variables.$color-white;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        width: 325px;
+        border-radius: 20px;
+
+        img {
+            width: 280px;
+            margin-top: 1.5rem;
+            border-radius: 15px;
+        }
+
+        p,
+        h2 {
+            margin: 1.4rem;
+            text-align: center;
+        }
+
+        p {
+            font-weight: normal;
+            color: variables.$color-gray-blue;
+            margin-top: 0;
+        }
+    }
+}
+
 .attribution {
     font-size: 11px;
     text-align: center;
@@ -7,9 +43,4 @@
     a {
         color: variables.$color-dark-blue;
     }
-}
-
-.showcase {
-    background-color: variables.$color-light-gray;
-    height: 600px;
 }

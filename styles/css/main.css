@@ -283,15 +283,40 @@ body {
   font-family: "Outfit", sans-serif;
 }
 
+.showcase {
+  background-color: #d6e2f0;
+  height: 85vh;
+  display: flex;
+  align-items: center;
+}
+.showcase .container-square {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 325px;
+  border-radius: 20px;
+}
+.showcase .container-square img {
+  width: 280px;
+  margin-top: 1.5rem;
+  border-radius: 15px;
+}
+.showcase .container-square p,
+.showcase .container-square h2 {
+  margin: 1.4rem;
+  text-align: center;
+}
+.showcase .container-square p {
+  font-weight: normal;
+  color: #7b879d;
+  margin-top: 0;
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
 }
 .attribution a {
   color: #1f3251;
-}
-
-.showcase {
-  background-color: #d6e2f0;
-  height: 600px;
 }
