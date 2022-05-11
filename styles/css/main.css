@@ -281,12 +281,13 @@ summary {
 
 body {
   font-family: "Outfit", sans-serif;
+  min-height: 100vh;
 }
 
 .showcase {
   background-color: #d6e2f0;
-  height: 85vh;
   display: flex;
+  flex-direction: column;
   align-items: center;
 }
 .showcase .container-square {
@@ -294,7 +295,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 325px;
+  max-width: 325px;
   border-radius: 20px;
 }
 .showcase .container-square img {
@@ -303,7 +304,7 @@ body {
   border-radius: 15px;
 }
 .showcase .container-square p,
-.showcase .container-square h2 {
+.showcase .container-square h1 {
   margin: 1.4rem;
   text-align: center;
 }
@@ -311,6 +312,12 @@ body {
   font-weight: normal;
   color: #7b879d;
   margin-top: 0;
+}
+.showcase .container-square h1 {
+  font-size: 1.5rem;
+}
+.showcase footer {
+  margin-top: 15px;
 }
 
 .attribution {
